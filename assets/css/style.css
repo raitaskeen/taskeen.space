@@ -1916,3 +1916,44 @@ main { margin-bottom: 20px !important; }
     backdrop-filter: blur(5px);
   }
 }
+
+/* ========================================================
+   MOBILE UI & AUTOFILL FIXES
+   ======================================================== */
+
+/* 1. Fix Contact Form Autofill Background (White BG Issue) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px var(--eerie-black-2) inset !important;
+  -webkit-text-fill-color: var(--white-2) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* 2 & 3. Make Sidebar Fully Visible on Mobile & Remove Dropdown Button */
+.sidebar {
+  max-height: max-content !important;
+  overflow: visible !important;
+}
+
+.info_more-btn {
+  display: none !important;
+}
+
+.sidebar-info_more {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* 4. Fix Footer Visibility on Mobile (Prevent Navbar Overlap) */
+@media (max-width: 1023px) {
+  main {
+    margin-bottom: 90px !important; /* Mobile navbar k liye jagah */
+  }
+  .footer-copy {
+    padding-bottom: 20px !important;
+  }
+}
