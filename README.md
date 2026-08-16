@@ -2,32 +2,29 @@
 
 ### Ideas are cheap. Execution is everything.
 
-The source code for my personal website and developer portfolio, showcasing my experience, projects, technical skills, and ongoing work in software engineering.
+The source code for my personal developer portfolio and central hub, showcasing my engineering journey, technical projects, systems architecture work, and ongoing explorations in modern software development.
 
 ## Overview
 
-This portfolio is built to document my journey as a software engineer and provide a central place to explore my work, technologies, and interests.
+Designed to be fast, modern, and clean, this portfolio serves as a live showcase of my technical skill set, full-stack applications, and systems-level engineering experiments.
 
 ## Focus Areas
 
-- Full-stack web development
-- TypeScript & React
-- Node.js & Bun
-- Rust & systems programming
-- AI-assisted software engineering
-- Static analysis & compiler concepts
-- Software architecture and developer tooling
+- **Full-Stack Engineering:** Scalable web applications using TypeScript, React, and Node.js/Bun.
+- **Systems & Performance:** Low-level programming, memory safety, and backend architecture with Rust.
+- **Static Analysis & Compilers:** Exploring Abstract Syntax Trees (AST), Control/Data Flow Graphs (CFG/DFG), and automated software modernization.
+- **AI Engineering & Tooling:** Building developer-focused utilities and exploring effective LLM integrations.
 
 ## Tech Stack
 
-**Frontend:** HTML, CSS, TypeScript, React  
-**Tooling:** Vite, Git, GitHub  
-**Deployment:** GitHub Pages
+* **Frontend:** HTML, CSS, TypeScript, React
+* **Tooling & Runtime:** Bun, Vite, Git, GitHub
+* **Deployment:** Hostinger / Modern Static Hosting
 
 ## Links
 
-🌐 **Website:** [taskeen.space](https://taskeen.space)
+🌐 **Live Website:** [taskeen.space](https://taskeen.space)
 
 ---
 
-> Building, learning, and improving — one project at a time.
+> Building, learning, and architecting — one system at a time.
